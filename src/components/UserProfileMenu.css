@@ -7,7 +7,7 @@
 }
 .UserProfileMenu ul {
     list-style-type: none;
-    border: 2px solid #D9D9D9;
+    border: 1px solid #D9D9D9;
     border-radius: 20px;
     transition: color !important;
 }

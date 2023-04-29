@@ -1,13 +1,17 @@
 import React from 'react';
 import "./UserProfileMenu.css";
 import { useState } from 'react'
+import PersonalInfoDiv from './PersonalInfoDiv';
+import ProfessionalInterstsDiv from './ProfessionalInterestsDiv';
 
 const elements = [
     <div>
         <h2> Personal Info </h2>
+        <PersonalInfoDiv/>
     </div>,
     <div >
         <h2> Professional Interests </h2>
+        <ProfessionalInterstsDiv/>
     </div>,
     <div>
         <h2> Education </h2>
@@ -64,4 +68,4 @@ function UserProfileMenu() {
     );
 }
 
-export default UserProfileMenu
+export default UserProfileMenu;
