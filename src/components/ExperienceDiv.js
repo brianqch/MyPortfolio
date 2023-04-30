@@ -23,7 +23,7 @@ function ExperienceDiv() {
             </div>
             <div className="formItem">
                 <h6>Job Description</h6>
-                <input type="text" name="Job Description<" id="bigInput" />
+                <textarea name="Job Description<" id="bigInput" />
             </div>       
         </div>
     ]);
@@ -52,7 +52,7 @@ function ExperienceDiv() {
                     </div>
                     <div className="formItem">
                         <h6>Job Description</h6>
-                        <input type="text" name="Job Description<" id="bigInput" />
+                        <textarea name="Job Description<" id="bigInput" />
                     </div>       
                 </div>
             ])}> Add experience </button>
