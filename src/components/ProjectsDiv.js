@@ -12,7 +12,7 @@ function ProjectsDiv() {
             </div>
             <div className="formItem">
                 <h6>Project Description</h6>
-                <input type="text" name="Project Description<" id="bigInput" />
+                <textarea name="Project Description<" id="bigInput" />
             </div>
             
         </div>

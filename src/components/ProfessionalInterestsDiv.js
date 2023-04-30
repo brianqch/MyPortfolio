@@ -8,7 +8,7 @@ function ProfessionalInterstsDiv() {
         <div className='UserProfileFormContainer' id="professionalInterestsDiv">
             <div className="formItem">
                 <h6>Professional Interests</h6>
-                <input type="text" name="personalSum" id="bigInput" />
+                <textarea name="personalSum" id="bigInput" />
             </div>
             
         </div>

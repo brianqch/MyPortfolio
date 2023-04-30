@@ -22,9 +22,9 @@ function PersonalInfoDiv() {
                 <h6>Email</h6>
                 <input type="text" name="Email" id="smallInput" />
             </div>
-            <div className="formItem">
+            <div className="formItem" id="personalSummary">
                 <h6>Personal Summary</h6>
-                <input type="text" name="personalSum" id="bigInput" />
+                <textarea name="personalSum" id="bigInput" />
             </div>
             
         </div>
