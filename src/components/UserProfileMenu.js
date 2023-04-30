@@ -1,22 +1,27 @@
 import React from 'react';
 import "./UserProfileMenu.css";
 import { useState } from 'react'
+import PersonalInfoDiv from './PersonalInfoDiv';
+import ProfessionalInterstsDiv from './ProfessionalInterestsDiv';
+import EducationDiv from './EducationDiv';
+import ExperienceDiv from './ExperienceDiv';
+import ProjectsDiv from './ProjectsDiv';
 
 const elements = [
     <div>
-        <h2> Personal Info </h2>
+        <PersonalInfoDiv/>
     </div>,
     <div >
-        <h2> Professional Interests </h2>
+        <ProfessionalInterstsDiv/>
     </div>,
     <div>
-        <h2> Education </h2>
+        <EducationDiv/>
     </div>,
     <div>
-        <h2> Experience </h2>
+        <ExperienceDiv/>
     </div>,
     <div>
-        <h2> Projects </h2>
+        <ProjectsDiv/>
     </div>,
     <div>
         <h2> Resume </h2>
@@ -64,4 +69,4 @@ function UserProfileMenu() {
     );
 }
 
-export default UserProfileMenu
+export default UserProfileMenu;
