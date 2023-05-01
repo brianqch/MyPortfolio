@@ -5,9 +5,14 @@ import Navigation from "../components/Navigation"
 import UserProfileMenu from "../components/UserProfileMenu";
 
 function UserProfilePage() {
+    let homeSec = document.getElementById("homeSection");
+    homeSec.style.display = "none";
+
+    let loginButton = document.getElementById('loginButton');
+    loginButton.style.display = "none";
+
     return (
         <>
-        <Navigation/>
         <div className="UserProfilePage">
             <UserProfileMenu/>
         </div>

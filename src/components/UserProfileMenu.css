@@ -43,7 +43,7 @@
   align-self: center;
 }
 
-.dot {
+.dotProfile {
   grid-column: 1;
   height: 150px;
   width: 150px;
