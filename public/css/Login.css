@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Set background color */
+body {
+  background: radial-gradient(black, #5e5d5d, white);
+}
+
+/* Center container horizontally and vertically */
+.container {
+  background-color: white;
+  border-radius: 35px;
+  padding: 200px;
+  margin: 150px auto 175px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  height: 80vh;
+  max-width: 1750px;
+}
+
+.inner {
+  transform: translateX(50px);
+}
+
+p {
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  font-weight: 750;
+  padding: 8px;
+}
+
+h8 {
+  font-family: 'Lexend', sans-serif;
+  font-size: 13px;
+  line-height: 3.5;
+  padding: 8px;
+}
+
+
+/* Set font family and text color */
+p, label {
+  font-family: 'Lexend', sans-serif;
+  color: black;
+    
+}
+
+/* Set font size and line height */
+p {
+  font-size: 25px;
+  line-height: 2;
+  font-weight: 750;
+  margin-bottom: 70px;
+    
+}
+
+label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0;
+  padding: 10px;
+    
+}
+
+
+/* Set input field styles */
+input[type=text], input[type=password] {
+  padding: 12px;
+  margin: 10px;
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 25px;
+  background-color: white;
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  width: 50%;
+  max-width: 1000px;
+  display: block;
+    
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+  box-shadow: 0 0 5px #5872ff;
+}
+
+/* Set button styles */
+button {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 18px;
+  background-color: #5872ff;
+  color: white;
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  width: 100%;
+  max-width: 200px;
+  cursor: pointer;
+    
+}
+
+button:hover {
+  background-color: #cb98ff;
+  color: white;
+}
+
+/* Adjust the styles for the login and create account buttons */
+.login {
+  font-family: 'Lexend', sans-serif;
+  width: 12%;
+  background-color: #5872ff;
+  border-radius: 70px;
+    
+}
+
+.create-account {
+  font-family: 'Lexend', sans-serif;
+  width: 58%;
+  background-color: #5872ff;
+  border-radius: 60px;
+    
+}

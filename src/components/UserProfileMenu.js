@@ -53,7 +53,7 @@ function UserProfileMenu() {
     return (
         <>
         <div class="userProfileHeaderContainer">
-        <span class="dot"></span>
+        <span class="dotProfile"></span>
         <h1 id="userProfileHeading"> User Profile </h1>
         </div>
         <div className="UserProfileMenu">

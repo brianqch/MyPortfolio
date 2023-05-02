@@ -1,0 +1,84 @@
+body {
+    background: radial-gradient(black, #4b4b4b, white);
+  }
+  
+  /* Center the form on the page */
+  .container {
+    margin: 100px auto 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    max-width: 1050px;
+    border-radius: 35px;
+  }
+
+  p {
+    font-family: 'Lexend', sans-serif;
+    font-size: 25px;
+    font-weight: 750;
+    padding: 8px;
+  }
+  
+  /* Style the form elements */
+  form {
+    background-color: #ffffff;
+    padding: 90px;
+    border-radius: 35px;
+  }
+  
+  .form-group {
+    padding: 0.5px
+  }
+  
+  label {
+    font-size: 16px;
+    line-height:0.5;
+    font-weight: 600;
+    padding: 5px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 60%;
+    max-width: 1000px;
+    padding:10px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: white;
+    display: block;
+  }
+  
+  button {
+    background-color: #5872ff;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  button:disabled {
+    opacity: 0.25;
+    background-color: #5872ff;
+    color: white;
+    cursor: not-allowed;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  button:hover {
+    background-color: #cb98ff;
+    color: white;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
