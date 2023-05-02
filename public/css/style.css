@@ -93,6 +93,18 @@ html {
   grid-row: 2;
 }
 
+#templatesButton {
+  display: none;
+}
+
+#myProfileButton {
+  display: none;
+}
+
+#signOutButton {
+  display: none;
+}
+
 .heading_container h2 {
   font-weight: bold;
   position: relative;

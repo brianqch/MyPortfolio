@@ -45,20 +45,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
-                <li class="nav-item active">
+                <li class="nav-item active" id="homeButton">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="templates.html"> Templates </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="how.html"> How </a>
                 </li>
                 <li class="nav-item" id="loginButton"> 
                   <a class="nav-link" href="login.html"> Login</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/my-profile"> My Profile</a>
+                <li class="nav-item " id="templatesButton">
+                  <a class="nav-link" href="templates.html"> Templates </a>
+                </li>
+                <li class="nav-item" id="myProfileButton"> 
+                  <a class="nav-link" href="/my-profile"> My Profile </a>
+                </li>
+                <li class="nav-item" id="signOutButton"> 
+                  <a class="nav-link" href="/index.html"> Sign out </a>
                 </li>
               </ul>
             </div>
@@ -112,7 +112,7 @@
       </h2>
     </div>
     <div class="boxed">
-      <h3 color = white text-align: center;>
+      <h3 style="font-family: Lexend" color = white text-align: center;>
       1. Fill in Your Information
       </h3>
     </div>
@@ -142,7 +142,7 @@
   <!-- about section -->
     <section class="how_section layout_padding">
       <div class="boxed">
-        <h3 font = "Lexend" color = white text-align: center; >
+        <h3 style="font-family: Lexend" color = white text-align: center; >
         2. Select a Template
         </h3>
       </div>
@@ -255,9 +255,11 @@
         </div>
         <div class="col-sm-4"></div>
         <div class="col-md-2">
+          <a href="/signup.html">
           <button class="button">
             CREATE ACCOUNT
           </button>
+        </a>
         </div>
       </div>
     </div>
